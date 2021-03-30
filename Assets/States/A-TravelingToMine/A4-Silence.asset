@@ -12,20 +12,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: A4-Silence
   m_EditorClassIdentifier: 
-  defaultText: 'You make yourself seem small and stop talking. Looking back you can
+  defaultText: You make yourself seem small and stop talking. Looking back you can
     see the anguished faces of your people. You must get them out of here.
-
-
-    1.
-    Continue...'
-  defaultStates:
-  - {fileID: 11400000, guid: a940027af87fde440a15536c81a95865, type: 2}
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Continue...
+  option1State: {fileID: 11400000, guid: a940027af87fde440a15536c81a95865, type: 2}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

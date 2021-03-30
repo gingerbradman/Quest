@@ -18,25 +18,39 @@ MonoBehaviour:
     you can''t remember the interview. One of the deserters approach you holding
     a vial of green liquid.
 
-
-    1. Refuse the drink
-
-    2. Accept the drink
-
-    3.
-    Attempt to shake their hand
-
 '
-  defaultStates:
-  - {fileID: 11400000, guid: af838a8c5c351ca43bad4337bc5e574d, type: 2}
-  - {fileID: 11400000, guid: bbff730b10ed0f4408e6d916ae59239a, type: 2}
-  - {fileID: 11400000, guid: 5b15ad5fe836d204ea921bd61a9c88d9, type: 2}
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Refuse the drink
+  option1State: {fileID: 11400000, guid: af838a8c5c351ca43bad4337bc5e574d, type: 2}
+  option2Text: Accept the drink
+  option2State: {fileID: 11400000, guid: bbff730b10ed0f4408e6d916ae59239a, type: 2}
+  option3Text: Attempt to shake their hand
+  option3State: {fileID: 11400000, guid: 5b15ad5fe836d204ea921bd61a9c88d9, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

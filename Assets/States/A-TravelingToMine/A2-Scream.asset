@@ -12,18 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: A2-Scream
   m_EditorClassIdentifier: 
-  defaultText: "You scream. As loud as you possibly can out into the world. Only
+  defaultText: 'You scream. As loud as you possibly can out into the world. Only
     to be answered by nothing, not even the wind. You continue screaming, for yourself
-    and your people. You must find a way to free them. You only vaguely hear \"Shut
-    them up\" before you are knocked out of consciousness once again. \n\n1. Continue..."
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+    and your people. You must find a way to free them. You only vaguely hear "Shut
+    them up" before you are knocked out of consciousness once again. '
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 21300000, guid: 03056ba31860c344b946e9e349fd9052, type: 3}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Continue...
+  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

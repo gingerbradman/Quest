@@ -12,21 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: A10-Shake
   m_EditorClassIdentifier: 
-  defaultText: 'You attempt to stick your hand out in a friendly gesture. "They''re
+  defaultText: You attempt to stick your hand out in a friendly gesture. "They're
     trying to break loose!" is the last thing you hear from the deserter before you
     are knocked unconscious once again. Before your eyes close you see your people
     being funneled into the mine. You must find a way to free them.
-
-
-    1. Continue...'
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Continue...
+  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

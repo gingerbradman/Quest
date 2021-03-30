@@ -12,22 +12,42 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: A7-Insult
   m_EditorClassIdentifier: 
-  defaultText: 'You give a riveting performance of describing your captor''s father
+  defaultText: You give a riveting performance of describing your captor's father
     and mother recreating him to his own ears. From hebing you hear your people and
     captors alike begin to chuckle. You turn to see their smiles but not before feeling
     something strike you on the head, and consciousness fades from you once more.
-
-
-    1.
-    Continue...'
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Continue...
+  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

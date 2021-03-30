@@ -106,7 +106,7 @@ public class AdventureGame : MonoBehaviour
     {
         string text = "";
         optionIndex = nextStates.Count - 1;
-        text += state.GetStateStory();
+        text += state.GetStateStory() + "\n";
 
         if(nextStates.Contains(state.GetOption1State())){text += "\n" + OptionNumber() + state.GetOption1Text();}
         if(nextStates.Contains(state.GetOption2State())){text += "\n" + OptionNumber() + state.GetOption2Text();}

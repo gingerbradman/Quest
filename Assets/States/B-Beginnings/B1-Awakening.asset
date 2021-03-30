@@ -12,40 +12,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: B1-Awakening
   m_EditorClassIdentifier: 
-  defaultText: 'With a headache, you awaken once more. This time free from your horse-shaped
+  defaultText: With a headache, you awaken once more. This time free from your horse-shaped
     prison cell in favor of a cell with actual bars and cave walls. "Still alive?"
-    A guard says from outside your cell  "Try not to cause any problems. We''ll be
+    A guard says from outside your cell  "Try not to cause any problems. We'll be
     shipping you away soon." He says before leaving. You notice a stranger in the
-    cell with you, dressed in simple pieces of cloth. "Name''s Hans, you ok?", says
-    the stranger.
-
-
-    1. Ask the Hans "Where are they sending us"?
-
-    2. Ask
-    the Hans "Why are they doing this"?
-
-    3. Ask the Hans "Where are my people"?
-
-    4.
-    Study the bars
-
-    5. Study your cell
-
-    6. Let time pass [Continue]'
-  defaultStates:
-  - {fileID: 11400000, guid: 2844092264d769c43bf32b007c6dfe24, type: 2}
-  - {fileID: 11400000, guid: 660fa9444fe8d834b982ef277a00b11d, type: 2}
-  - {fileID: 11400000, guid: af2cea0f5f9e2bf43999ea258915cf3a, type: 2}
-  - {fileID: 11400000, guid: 74eae4c10287f61439b1caf0990f7a2d, type: 2}
-  - {fileID: 11400000, guid: 76841225f2307a54088c82258cb44365, type: 2}
-  - {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
+    cell with you, dressed in simple pieces of cloth and chained to the wall. "Name's
+    Hans, you ok?", says the stranger.
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Speak with Hans
+  option1State: {fileID: 11400000, guid: 3a90d310a55b4454a9d724bf79d39642, type: 2}
+  option2Text: Study the bars
+  option2State: {fileID: 11400000, guid: 74eae4c10287f61439b1caf0990f7a2d, type: 2}
+  option3Text: Study your cell
+  option3State: {fileID: 11400000, guid: 76841225f2307a54088c82258cb44365, type: 2}
+  option4Text: Let Time Pass [Continue]
+  option4State: {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

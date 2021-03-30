@@ -18,6 +18,7 @@ MonoBehaviour:
 
 '
   defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
   itemAcquire: 
   itemRequired: 
@@ -27,20 +28,15 @@ MonoBehaviour:
   acquireCompanion: 0
   option1Text: Ask your captor if they can hear you, maybe their mask is tied on
     too tight
-  oneVisitOption1: 1
-  option1State: {fileID: 11400000, guid: 8953f715fe25c5240b28768c8ee7bad1, type: 2}
+  option1State: {fileID: 11400000, guid: 3c51e78752cee784f922b85d6d7a1422, type: 2}
   option2Text: Insult your captor's mother in various ways highlighting her night
     life
-  oneVisitOption2: 0
   option2State: {fileID: 11400000, guid: 7fed817fa35ea4b4d80122535b27914b, type: 2}
   option3Text: Ride in silence
-  oneVisitOption3: 0
   option3State: {fileID: 11400000, guid: 5cb5efd934a5ed34d91ff5b270daa91f, type: 2}
   option4Text: Scream for help
-  oneVisitOption4: 0
   option4State: {fileID: 11400000, guid: 955ec9b927966764d93d461d0335bb22, type: 2}
   option5Text: 
-  oneVisitOption5: 0
   option5State: {fileID: 0}
   fighterText: 
   fighterStates: []

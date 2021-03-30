@@ -211,17 +211,17 @@ public class State : ScriptableObject
 
     public string GetFighterText()
     {
-        return fighterText;
+        return "(Fighter) " + fighterText;
     }
 
     public string GetWizardText()
     {
-        return wizardText;
+        return "(Wizard) " +  wizardText;
     }
 
     public string GetBardText()
     {
-        return bardText;
+        return "(Bard) " +  bardText;
     }
 
     public State[] GetFighterStates()
@@ -241,17 +241,17 @@ public class State : ScriptableObject
 
     public string GetHansText()
     {
-        return hansText;
+        return "(Hans) " + hansText;
     }
 
     public string GetNyxText()
     {
-        return nyxText;
+        return "(Nyx) " + nyxText;
     }
 
     public string GetTimText()
     {
-        return timText;
+        return "(Tim) " + timText;
     }
 
     public State[] GetHansStates()

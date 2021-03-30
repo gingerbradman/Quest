@@ -17,18 +17,40 @@ MonoBehaviour:
     tests to find out if you were capable of magic." Hans points to your left arm.
     On your wrist are two large bite marks as if you were bite by a large spider.
     "They are going to execute us. Can''t having us working in the mine because we
-    are too dangerous. only brought you here for rest I suppose."
-
-
-    1. Back... '
+    are too dangerous. only brought you here for rest I suppose."'
   defaultStates:
   - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Back...
+  option1State: {fileID: 11400000, guid: 3a90d310a55b4454a9d724bf79d39642, type: 2}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

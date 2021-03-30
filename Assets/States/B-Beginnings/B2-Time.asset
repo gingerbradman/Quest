@@ -14,27 +14,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultText: 'Time passes and you begin to feel better, more like yourself. After
     a while you drift off to sleep. Dreams come to you in rather sudden states. You
-    have a dream about:
-
-
-    1. (Fighter) Winning glory, fighting for honor and
-    battling with all manner of weapons
-
-    2. (Wizard) Traveling to far off places,
-    magic and conjuring creatures
-
-    3. (Bard) Cleverly tricking those around you,
-    seducing those most beautiful and having a way with words'
-  defaultStates:
-  - {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
-  - {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
-  - {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+    have a dream about:'
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 1
+  acquireCompanion: 0
+  option1Text: (Fighter) Winning glory, fighting for honor and battling with all
+    manner of weapons
+  option1State: {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+  option2Text: (Wizard) Traveling to far off places, magic and conjuring creatures
+  option2State: {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+  option3Text: (Bard) Cleverly tricking those around you, seducing those most beautiful
+    and having a way with words
+  option3State: {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
   fighterText: 
   fighterStates: []
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

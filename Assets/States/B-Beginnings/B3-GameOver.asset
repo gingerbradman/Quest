@@ -14,19 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultText: 'GAME OVER
 
-    Must''ve dreamed too long.
-
-
-    1. Wake up'
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+    Must''ve dreamed too long.'
+  defaultStates: []
+  oneVisit: 0
   artwork: {fileID: 0}
-  obtainScene: 0
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
   ClassPick: 0
-  fighterText: 2. (Fighter) Punch your dreams
+  acquireCompanion: 0
+  option1Text: Wake up
+  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: Punch your dreams
   fighterStates:
   - {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
   wizardText: 
   wizardStates: []
   bardText: 
   bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []
