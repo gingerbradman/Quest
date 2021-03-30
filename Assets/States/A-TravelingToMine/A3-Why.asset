@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: A3-Why
+  m_EditorClassIdentifier: 
+  defaultText: 'You receive no answer. Your captor turns back and continues riding.
+    Maybe that mask keeps them from hearing?
+
+
+'
+  defaultStates: []
+  artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Ask your captor if they can hear you, maybe their mask is tied on
+    too tight
+  oneVisitOption1: 1
+  option1State: {fileID: 11400000, guid: 8953f715fe25c5240b28768c8ee7bad1, type: 2}
+  option2Text: Insult your captor's mother in various ways highlighting her night
+    life
+  oneVisitOption2: 0
+  option2State: {fileID: 11400000, guid: 7fed817fa35ea4b4d80122535b27914b, type: 2}
+  option3Text: Ride in silence
+  oneVisitOption3: 0
+  option3State: {fileID: 11400000, guid: 5cb5efd934a5ed34d91ff5b270daa91f, type: 2}
+  option4Text: Scream for help
+  oneVisitOption4: 0
+  option4State: {fileID: 11400000, guid: 955ec9b927966764d93d461d0335bb22, type: 2}
+  option5Text: 
+  oneVisitOption5: 0
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: []
+  wizardText: 
+  wizardStates: []
+  bardText: 
+  bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

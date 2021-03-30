@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  defaultText: 'You awaken strapped to the backside of a horse with your hands tied
+    behind your back. The dull colors of the road and landscape almost seem to merge
+    together in your vision. Behind you are your people, the villagers of Garfen,
+    in shackles, ropes and cuffs bounded together in a train following your captor''s
+    horse. Your captor and his compatriots surrounding your people are dressed in
+    tattered robes and disorderly soldier armor. Deserters.
+
+'
+  defaultStates: []
+  artwork: {fileID: 0}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Ask what's happening
+  oneVisitOption1: 1
+  option1State: {fileID: 11400000, guid: 8953f715fe25c5240b28768c8ee7bad1, type: 2}
+  option2Text: Scream for help
+  oneVisitOption2: 0
+  option2State: {fileID: 11400000, guid: 955ec9b927966764d93d461d0335bb22, type: 2}
+  option3Text: 
+  oneVisitOption3: 0
+  option3State: {fileID: 0}
+  option4Text: 
+  oneVisitOption4: 0
+  option4State: {fileID: 0}
+  option5Text: 
+  oneVisitOption5: 0
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: []
+  wizardText: 
+  wizardStates: []
+  bardText: 
+  bardStates: []
+  hansText: 
+  hansStates: []
+  nyxText: 
+  nyxStates: []
+  timText: 
+  timStates: []
+  itemText: 
+  itemStates: []
+  knowledgeText: 
+  knowledgeStates: []

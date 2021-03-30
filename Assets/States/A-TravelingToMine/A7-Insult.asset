@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: A7-Insult
+  m_EditorClassIdentifier: 
+  defaultText: 'You give a riveting performance of describing your captor''s father
+    and mother recreating him to his own ears. From hebing you hear your people and
+    captors alike begin to chuckle. You turn to see their smiles but not before feeling
+    something strike you on the head, and consciousness fades from you once more.
+
+
+    1.
+    Continue...'
+  defaultStates:
+  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  artwork: {fileID: 0}
+  obtainScene: 0
+  ClassPick: 0
+  fighterText: 
+  fighterStates: []
+  wizardText: 
+  wizardStates: []
+  bardText: 
+  bardStates: []

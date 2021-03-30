@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: A2-Scream
+  m_EditorClassIdentifier: 
+  defaultText: "You scream. As loud as you possibly can out into the world. Only
+    to be answered by nothing, not even the wind. You continue screaming, for yourself
+    and your people. You must find a way to free them. You only vaguely hear \"Shut
+    them up\" before you are knocked out of consciousness once again. \n\n1. Continue..."
+  defaultStates:
+  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  artwork: {fileID: 21300000, guid: 03056ba31860c344b946e9e349fd9052, type: 3}
+  obtainScene: 0
+  ClassPick: 0
+  fighterText: 
+  fighterStates: []
+  wizardText: 
+  wizardStates: []
+  bardText: 
+  bardStates: []
