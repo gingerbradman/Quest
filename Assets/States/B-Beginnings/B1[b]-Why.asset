@@ -15,8 +15,7 @@ MonoBehaviour:
   defaultText: '"Deserters from the civil war in Astrea." Hans groaned as he repositioned
     himself to better pull at his fluffy mustache. "I imagine they''ve got people
     here for ore to make new weapons. Probably only a small batch of soldiers though."'
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 

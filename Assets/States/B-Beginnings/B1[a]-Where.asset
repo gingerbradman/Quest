@@ -18,8 +18,7 @@ MonoBehaviour:
     On your wrist are two large bite marks as if you were bite by a large spider.
     "They are going to execute us. Can''t having us working in the mine because we
     are too dangerous. only brought you here for rest I suppose."'
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 

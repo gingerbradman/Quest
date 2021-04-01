@@ -16,8 +16,7 @@ MonoBehaviour:
     seem made of the usual iron. The iron around the doorway has a bit of rust on
     the hinges. It would probably give weigh under enough stress. "Guard''s got the
     keys." Hans says from the back of your cell. You go back and join him. '
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 

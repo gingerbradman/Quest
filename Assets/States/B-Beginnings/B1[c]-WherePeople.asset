@@ -16,8 +16,7 @@ MonoBehaviour:
     the faint sounds of metal striking rock and the occasional groan. "They are hard
     at work for the deserters. Damn animals using their old people for labor. Wasn''t
     good enough to just abandon us."'
-  defaultStates:
-  - {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 

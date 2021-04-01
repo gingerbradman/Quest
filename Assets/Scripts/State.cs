@@ -6,7 +6,6 @@ using UnityEngine;
 public class State : ScriptableObject
 {
     [TextArea(14,10)][SerializeField] string defaultText;
-    [SerializeField] State[] defaultStates;
 
     public bool oneVisit;
  
@@ -53,11 +52,6 @@ public class State : ScriptableObject
         return defaultText;
     }
 
-    public State[] GetNextStates()
-    {
-        return defaultStates;
-    }
-
     public string GetOption1Text(){ return option1Text;}
     public string GetOption2Text(){ return option2Text;}
     public string GetOption3Text(){ return option3Text;}
@@ -95,17 +89,17 @@ public class State : ScriptableObject
         {
             return "";
         }
-        if (role == CharacterRole.CharacterClass.Fighter)
+        if (role == CharacterRole.CharacterClass.Fighter && GetFighterText() != "")
         {
-            return GetFighterText();
+            return "(Fighter) " + GetFighterText();
         }
-        else if (role == CharacterRole.CharacterClass.Wizard)
+        else if (role == CharacterRole.CharacterClass.Wizard && GetWizardText() != "")
         {
-            return GetWizardText();
+            return "(Wizard) " +  GetWizardText();
         }
-        else if (role == CharacterRole.CharacterClass.Bard)
+        else if (role == CharacterRole.CharacterClass.Bard && GetBardText() != "")
         {
-            return GetBardText();
+            return "(Bard) " +  GetBardText();
         }
         return "";
     }
@@ -134,17 +128,17 @@ public class State : ScriptableObject
         {
             return "";
         }
-        else if (companion == CharacterCompanion.Companion.Hans)
+        else if (companion == CharacterCompanion.Companion.Hans && GetHansText() != "")
         {
-            return GetHansText();
+            return "(Hans) " + GetHansText();
         }
         else if (companion == CharacterCompanion.Companion.Nyx)
         {
-            return GetNyxText();
+            return "(Nyx) " + GetNyxText();
         }
         else if (companion == CharacterCompanion.Companion.Tim)
         {
-            return GetTimText();
+            return "(Tim) " + GetTimText();
         }
         return "";
     }
@@ -211,17 +205,17 @@ public class State : ScriptableObject
 
     public string GetFighterText()
     {
-        return "(Fighter) " + fighterText;
+        return fighterText;
     }
 
     public string GetWizardText()
     {
-        return "(Wizard) " +  wizardText;
+        return wizardText;
     }
 
     public string GetBardText()
     {
-        return "(Bard) " +  bardText;
+        return bardText;
     }
 
     public State[] GetFighterStates()
@@ -241,17 +235,17 @@ public class State : ScriptableObject
 
     public string GetHansText()
     {
-        return "(Hans) " + hansText;
+        return hansText;
     }
 
     public string GetNyxText()
     {
-        return "(Nyx) " + nyxText;
+        return nyxText;
     }
 
     public string GetTimText()
     {
-        return "(Tim) " + timText;
+        return timText;
     }
 
     public State[] GetHansStates()
