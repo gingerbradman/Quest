@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: G4-Elf
+  m_EditorClassIdentifier: 
+  defaultText: The elf is shy, small and appears frail. When you approach she hurridly
+    scurries some distance away.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: Nyx Way Out
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: '"Who are you?"'
+  option1State: {fileID: 11400000, guid: 144c88da828393742a776be9ff8863e5, type: 2}
+  option2Text: '"How did you get here?"'
+  option2State: {fileID: 11400000, guid: c511eb30cec80b4448c482aa66ad8f6c, type: 2}
+  option3Text: '"Do you know a way out?"'
+  option3State: {fileID: 11400000, guid: 10552f885592ef14b9b03c72dfe20f1c, type: 2}
+  option4Text: Leave...
+  option4State: {fileID: 11400000, guid: 78a88180a1bf1634bbb3b2b5b335fe7d, type: 2}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: Come with me, let's find a way out of here!
+  knowledgeStates: {fileID: 11400000, guid: a0b8819330a8d91439d9a6ab111a3040, type: 2}

@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: G1-WorkersNeutral
+  m_EditorClassIdentifier: 
+  defaultText: Guards come by and you pretend to strike the stone. After a while
+    they stop paying attention to you. Near you are some very exhausted workers,
+    the closest is an elderly human.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  itemAcquire: Pickaxe
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Mine for a while
+  option1State: {fileID: 11400000, guid: 85a15d013e514da409ad492c04669096, type: 2}
+  option2Text: Talk amongst the workers
+  option2State: {fileID: 11400000, guid: c4e7f4658306fd34b862683a918fea63, type: 2}
+  option3Text: Wait for an opportune moment to slip away
+  option3State: {fileID: 11400000, guid: 98b7dd3184ee3234ab42470ddba676bf, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

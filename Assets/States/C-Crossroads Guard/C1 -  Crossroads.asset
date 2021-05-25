@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: C1 -  Crossroads
+  m_EditorClassIdentifier: 
+  defaultText: 'One path is quiet but well lit. You can hear creatures cursing from
+    a different path. Another direction appears dark and poorly lit. The final path
+    goes back to your cell. In the center of this cross roads is a stool and a conveinently
+    not awake guard. '
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: Crossroads
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Sneak up to the guard
+  option1State: {fileID: 11400000, guid: d61723fb7f996134e8c03d656fecfdaf, type: 2}
+  option2Text: Take the well-lit path, north
+  option2State: {fileID: 11400000, guid: a161b5c0a6d95834cbf055148380394c, type: 2}
+  option3Text: Take the path with sounds of cursing, east
+  option3State: {fileID: 11400000, guid: 98774b3845b37ff47904efc1fe9365ba, type: 2}
+  option4Text: Take the dark path, south
+  option4State: {fileID: 11400000, guid: 1622c8ceea768344fa426823e6c435c1, type: 2}
+  option5Text: Take the path going back towards the cells, west
+  option5State: {fileID: 11400000, guid: 19276a2633ab9bd46919dc4e63eee5ab, type: 2}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

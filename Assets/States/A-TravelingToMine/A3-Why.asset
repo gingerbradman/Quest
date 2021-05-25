@@ -12,20 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: A3-Why
   m_EditorClassIdentifier: 
-  defaultText: 'You receive no answer. Your captor turns back and continues riding.
+  defaultText: You receive no answer. Your captor turns back and continues riding.
     Maybe that mask keeps them from hearing?
-
-
-'
-  defaultStates: []
   oneVisit: 0
-  artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
   itemAcquire: 
   itemRequired: 
   knowledgeAcquire: 
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
+  loseCompanion: 0
   option1Text: Ask your captor if they can hear you, maybe their mask is tied on
     too tight
   option1State: {fileID: 11400000, guid: 3c51e78752cee784f922b85d6d7a1422, type: 2}
@@ -39,18 +37,18 @@ MonoBehaviour:
   option5Text: 
   option5State: {fileID: 0}
   fighterText: 
-  fighterStates: []
+  fighterStates: {fileID: 0}
   wizardText: 
-  wizardStates: []
+  wizardStates: {fileID: 0}
   bardText: 
-  bardStates: []
+  bardStates: {fileID: 0}
   hansText: 
-  hansStates: []
+  hansStates: {fileID: 0}
   nyxText: 
-  nyxStates: []
+  nyxStates: {fileID: 0}
   timText: 
-  timStates: []
+  timStates: {fileID: 0}
   itemText: 
-  itemStates: []
+  itemStates: {fileID: 0}
   knowledgeText: 
-  knowledgeStates: []
+  knowledgeStates: {fileID: 0}

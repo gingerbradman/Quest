@@ -16,17 +16,18 @@ MonoBehaviour:
     to be answered by nothing, not even the wind. You continue screaming, for yourself
     and your people. You must find a way to free them. You only vaguely hear "Shut
     them up" before you are knocked out of consciousness once again. '
-  defaultStates: []
   oneVisit: 0
-  artwork: {fileID: 21300000, guid: 03056ba31860c344b946e9e349fd9052, type: 3}
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
   itemAcquire: 
   itemRequired: 
   knowledgeAcquire: 
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
+  loseCompanion: 0
   option1Text: Continue...
-  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option1State: {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
   option2Text: 
   option2State: {fileID: 0}
   option3Text: 
@@ -36,18 +37,18 @@ MonoBehaviour:
   option5Text: 
   option5State: {fileID: 0}
   fighterText: 
-  fighterStates: []
+  fighterStates: {fileID: 0}
   wizardText: 
-  wizardStates: []
+  wizardStates: {fileID: 0}
   bardText: 
-  bardStates: []
+  bardStates: {fileID: 0}
   hansText: 
-  hansStates: []
+  hansStates: {fileID: 0}
   nyxText: 
-  nyxStates: []
+  nyxStates: {fileID: 0}
   timText: 
-  timStates: []
+  timStates: {fileID: 0}
   itemText: 
-  itemStates: []
+  itemStates: {fileID: 0}
   knowledgeText: 
-  knowledgeStates: []
+  knowledgeStates: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: R-GravesNeutral
+  m_EditorClassIdentifier: 
+  defaultText: There appear to be stones rising from the floor but besides that nothing
+    else is in this room.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: Graves
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Investigate the stones
+  option1State: {fileID: 11400000, guid: 0b09cfdba4010a54ca30ba2dc87dd547, type: 2}
+  option2Text: Take the path back to the lower crossroads, east
+  option2State: {fileID: 11400000, guid: bf1d01cfa1abd8241b9e8ddcea178d5f, type: 2}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

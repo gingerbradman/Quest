@@ -18,15 +18,15 @@ MonoBehaviour:
     in shackles, ropes and cuffs bounded together in a train following your captor's
     horse. Your captor and his compatriots surrounding your people are dressed in
     tattered robes and disorderly soldier armor. Deserters.
-  defaultStates: []
   oneVisit: 0
-  artwork: {fileID: 0}
+  artwork: {fileID: 21300000, guid: 019eb9a5d60fc4248b062f5befaf4eb6, type: 3}
   itemAcquire: 
   itemRequired: 
   knowledgeAcquire: 
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
+  loseCompanion: 0
   option1Text: Ask what's happening
   option1State: {fileID: 11400000, guid: 8953f715fe25c5240b28768c8ee7bad1, type: 2}
   option2Text: Scream for help
@@ -38,18 +38,18 @@ MonoBehaviour:
   option5Text: 
   option5State: {fileID: 0}
   fighterText: 
-  fighterStates: []
+  fighterStates: {fileID: 0}
   wizardText: 
-  wizardStates: []
+  wizardStates: {fileID: 0}
   bardText: 
-  bardStates: []
+  bardStates: {fileID: 0}
   hansText: 
-  hansStates: []
+  hansStates: {fileID: 0}
   nyxText: 
-  nyxStates: []
+  nyxStates: {fileID: 0}
   timText: 
-  timStates: []
+  timStates: {fileID: 0}
   itemText: 
-  itemStates: []
+  itemStates: {fileID: 0}
   knowledgeText: 
-  knowledgeStates: []
+  knowledgeStates: {fileID: 0}

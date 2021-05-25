@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: J1-OpenApproach
+  m_EditorClassIdentifier: 
+  defaultText: You openly approach the guards at the entrance. You barely make a
+    presense before you hear "Halt!" you hear from the guard on your left. "Return
+    to your quarry peasant before I plant you into the ground like a seed. But you
+    will only ever grow into bones and disapointment." The guard on the right then
+    chips in, "Yeah, so like...leave. Before you make us do our job."
+  oneVisit: 0
+  splitPath: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: Outpost
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  splitPathKeywordAcquire: 
+  splitPathKeywordRecquired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  splitState: {fileID: 0}
+  option1Text: (Lie) Insist that you don't belong here and must leave
+  option1State: {fileID: 11400000, guid: 13b14fbe903a28041a180f5f50d55dc4, type: 2}
+  option2Text: Back off...
+  option2State: {fileID: 11400000, guid: 684e9a4c3e4b0804488fd80a49fe0532, type: 2}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

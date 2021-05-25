@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: N-Barricade
+  m_EditorClassIdentifier: 
+  defaultText: Infront of you is a large wooden barricade that has been clearly built
+    to keep something out. You find a weak spot in the barricade that you could probably
+    slip through.
+  oneVisit: 0
+  artwork: {fileID: 21300000, guid: 03056ba31860c344b946e9e349fd9052, type: 3}
+  audioClip: {fileID: 0}
+  locationName: Barricade
+  itemAcquire: 
+  itemRequired: OilLantern
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Slip through the barricade
+  option1State: {fileID: 11400000, guid: 3e19e24562e09f24aa19e154ae7d716c, type: 2}
+  option2Text: Step away
+  option2State: {fileID: 11400000, guid: c9130e403d838e843a990b5c0be928b0, type: 2}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: (OilLanter) Place and light the oil lantern, signalling the goblin forces
+    below
+  itemStates: {fileID: 11400000, guid: 2c2ea5f5866368840a9f8323cfc4bc5d, type: 2}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

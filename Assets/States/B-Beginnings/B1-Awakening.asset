@@ -14,42 +14,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultText: With a headache, you awaken once more. This time free from your horse-shaped
     prison cell in favor of a cell with actual bars and cave walls. "Still alive?"
-    A guard says from outside your cell  "Try not to cause any problems. We'll be
-    shipping you away soon." He says before leaving. You notice a stranger in the
+    a guard says from outside your cell. "Try not to cause any problems. We'll be
+    shipping you away soon," he says before leaving. You notice a stranger in the
     cell with you, dressed in simple pieces of cloth and chained to the wall. "Name's
-    Hans, you ok?", says the stranger.
-  defaultStates: []
+    Hans, you ok?", asks the stranger.
   oneVisit: 0
-  artwork: {fileID: 0}
-  itemAcquire: 
+  artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
+  audioClip: {fileID: 8300000, guid: fa30e0f18f323ec4f8d81e6fb213792b, type: 3}
+  locationName: Cell
+  itemAcquire: Herbalist Gloves
   itemRequired: 
   knowledgeAcquire: 
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
+  loseCompanion: 0
   option1Text: Speak with Hans
   option1State: {fileID: 11400000, guid: 3a90d310a55b4454a9d724bf79d39642, type: 2}
   option2Text: Study the bars
   option2State: {fileID: 11400000, guid: 74eae4c10287f61439b1caf0990f7a2d, type: 2}
   option3Text: Study your cell
   option3State: {fileID: 11400000, guid: 76841225f2307a54088c82258cb44365, type: 2}
-  option4Text: Let Time Pass [Continue]
-  option4State: {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
   option5Text: 
   option5State: {fileID: 0}
   fighterText: 
-  fighterStates: []
+  fighterStates: {fileID: 0}
   wizardText: 
-  wizardStates: []
+  wizardStates: {fileID: 0}
   bardText: 
-  bardStates: []
+  bardStates: {fileID: 0}
   hansText: 
-  hansStates: []
+  hansStates: {fileID: 0}
   nyxText: 
-  nyxStates: []
+  nyxStates: {fileID: 0}
   timText: 
-  timStates: []
+  timStates: {fileID: 0}
   itemText: 
-  itemStates: []
+  itemStates: {fileID: 0}
   knowledgeText: 
-  knowledgeStates: []
+  knowledgeStates: {fileID: 0}

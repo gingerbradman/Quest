@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: B2 - In Cell Cruel
+  m_EditorClassIdentifier: 
+  defaultText: Your cell is damp, smells terrible and you hope that was a rat in
+    the periphery of your vision. A body of a man is slumped, chained to the wall
+    in the corner.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: 
+  option1State: {fileID: 0}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: Study your cell
+  option3State: {fileID: 11400000, guid: 36f550122dc43b74b96842149f76d524, type: 2}
+  option4Text: Approach the cell's exit
+  option4State: {fileID: 11400000, guid: 19276a2633ab9bd46919dc4e63eee5ab, type: 2}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

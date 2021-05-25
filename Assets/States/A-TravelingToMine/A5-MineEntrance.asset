@@ -12,22 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
   m_Name: A5-MineEntrance
   m_EditorClassIdentifier: 
-  defaultText: 'After some time has passed everyone''s movements grind to a halt.
-    Seems you''ve arrived. When your captor gets off of your horse-prison you catch
-    a view of a dusty old mine. Looks like you''ve just found new employement, shame
-    you can''t remember the interview. One of the deserters approach you holding
-    a vial of green liquid.
-
-'
-  defaultStates: []
+  defaultText: After some time has passed everyone's movements grind to a halt. Seems
+    you've arrived. When your captor gets off of your horse-prison you catch a view
+    of a dusty old mine. Looks like you've just found new employment, shame you can't
+    remember the interview. One of the deserters approach you holding a vial of green
+    liquid.
   oneVisit: 0
   artwork: {fileID: 0}
+  audioClip: {fileID: 0}
   itemAcquire: 
   itemRequired: 
   knowledgeAcquire: 
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
+  loseCompanion: 0
   option1Text: Refuse the drink
   option1State: {fileID: 11400000, guid: af838a8c5c351ca43bad4337bc5e574d, type: 2}
   option2Text: Accept the drink
@@ -39,18 +38,18 @@ MonoBehaviour:
   option5Text: 
   option5State: {fileID: 0}
   fighterText: 
-  fighterStates: []
+  fighterStates: {fileID: 0}
   wizardText: 
-  wizardStates: []
+  wizardStates: {fileID: 0}
   bardText: 
-  bardStates: []
+  bardStates: {fileID: 0}
   hansText: 
-  hansStates: []
+  hansStates: {fileID: 0}
   nyxText: 
-  nyxStates: []
+  nyxStates: {fileID: 0}
   timText: 
-  timStates: []
+  timStates: {fileID: 0}
   itemText: 
-  itemStates: []
+  itemStates: {fileID: 0}
   knowledgeText: 
-  knowledgeStates: []
+  knowledgeStates: {fileID: 0}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: G3-RestArea
+  m_EditorClassIdentifier: 
+  defaultText: You quickly slide into the rest area. Here there a few prisoners taking
+    a break before quickly being taken to the stone again. You might be able to catch
+    a quick word with a few of them. There is a small elf with dark purple skin and
+    a large turtle-like creature that catch your eye.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Approach the elf
+  option1State: {fileID: 11400000, guid: b0bb3baf1ba4394488ee07d08514d262, type: 2}
+  option2Text: Approach the turtle-like creature
+  option2State: {fileID: 11400000, guid: deb81bac1dfe1314a8a82ec62768a96d, type: 2}
+  option3Text: Retreat back to the entrance...
+  option3State: {fileID: 11400000, guid: 98b7dd3184ee3234ab42470ddba676bf, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

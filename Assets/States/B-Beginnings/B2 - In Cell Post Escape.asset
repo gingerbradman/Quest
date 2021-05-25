@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: B2 - In Cell Post Escape
+  m_EditorClassIdentifier: 
+  defaultText: Your cell is damp, smells terrible and you hope that was a rat in
+    the periphery of your vision. "Shouldn't you be leaving?" Hans grumbles, still
+    chained to the wall.
+  oneVisit: 0
+  splitPath: 1
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: 
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  splitPathKeywordAcquire: 
+  splitPathKeywordRecquired: HansKilled
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  splitState: {fileID: 11400000, guid: 047e76b8e0efdd0499bca85a52e3fc10, type: 2}
+  option1Text: Speak with Hans
+  option1State: {fileID: 11400000, guid: f050407d5496660408213ec977eeae75, type: 2}
+  option2Text: Kill Hans
+  option2State: {fileID: 11400000, guid: 6b462a013bef63b4289b6900a4095f02, type: 2}
+  option3Text: Study your cell
+  option3State: {fileID: 11400000, guid: d901185e39a2bad48a1ba6a54e9ce902, type: 2}
+  option4Text: Approach the cell's exit
+  option4State: {fileID: 11400000, guid: 19276a2633ab9bd46919dc4e63eee5ab, type: 2}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

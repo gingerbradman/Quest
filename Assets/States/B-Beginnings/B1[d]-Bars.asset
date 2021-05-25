@@ -14,19 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultText: 'You stand up and go to the bars to examine them. The bars themselves
     seem made of the usual iron. The iron around the doorway has a bit of rust on
-    the hinges. It would probably give weigh under enough stress. "Guard''s got the
-    keys." Hans says from the back of your cell. You go back and join him. '
-  defaultStates: []
+    the hinges. It would probably give weigh under enough stress. There''s a rusted
+    weak spot in the corner where the bars meet cavern walls. Probably a weak spot.
+    "Guard''s got the keys." Hans says from the back of your cell. You go back and
+    join him. '
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 
   itemRequired: 
-  knowledgeAcquire: 
+  knowledgeAcquire: Cell Weak Spot
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
   option1Text: 'Back... '
-  option1State: {fileID: 11400000, guid: 8e007563a88c64b46a0e5e64189de3a0, type: 2}
+  option1State: {fileID: 11400000, guid: 99588b0144674dc43a7d0d7c919fdd8c, type: 2}
   option2Text: 
   option2State: {fileID: 0}
   option3Text: 

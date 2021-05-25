@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: E-BarrackEntrance
+  m_EditorClassIdentifier: 
+  defaultText: While the hallway leading here was full of crates, the room itself
+    is instead filled with tables, chairs and beds. You imagine this is a barracks
+    for your captors. In the center are three guards playing cards, there's an additional
+    guard in the corner who appears to be reading. This room has multiple ways out,
+    one going towards the cells, one with more crates and barrels and another that
+    seems to go to some divergent paths. You don't imagine you can sneak by the table
+    of guards to go down the divergent path.
+  oneVisit: 0
+  artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
+  audioClip: {fileID: 0}
+  locationName: Barracks
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Prepare to approach the guards
+  option1State: {fileID: 11400000, guid: dd77672b2ed074549839cdb47399f47f, type: 2}
+  option2Text: Take the path going back to your cell, west
+  option2State: {fileID: 11400000, guid: 6835bb739033e3244acceb0e02cd5dc9, type: 2}
+  option3Text: Sneak down the hallway with the crates and boxes, south
+  option3State: {fileID: 11400000, guid: 91c2a6c0a911aef49a3af55025f1f921, type: 2}
+  option4Text: Eavesdrop on the guards at the table
+  option4State: {fileID: 11400000, guid: 9dd38d1cf37a23c4ab3a6ee4aaf1e681, type: 2}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

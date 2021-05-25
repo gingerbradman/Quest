@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: H-SuppliesEntraceFirstTime
+  m_EditorClassIdentifier: 
+  defaultText: This path opens into a well-lit room with crates, boxes and barrels
+    everywhere. There are four ways into this room; a divergent path that you can
+    hear a large amount of mining noises from, a way to a path with the sounds of
+    cursing and coin purses hitting the table, a path that seems to diverge again
+    but with the faintest odor and a barricaded path. This room appears to be empty
+    of any guards or creatures.
+  oneVisit: 0
+  artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
+  audioClip: {fileID: 0}
+  locationName: Supply Room
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Investigate the room
+  option1State: {fileID: 11400000, guid: 9ad3e3a3f65e90d4b98559ab8e6c0c9d, type: 2}
+  option2Text: Take the path that splits with the mining noises, west
+  option2State: {fileID: 11400000, guid: 1622c8ceea768344fa426823e6c435c1, type: 2}
+  option3Text: Take the path with the sounds of cursing, north
+  option3State: {fileID: 11400000, guid: 91c2a6c0a911aef49a3af55025f1f921, type: 2}
+  option4Text: Take the path that splits with the faint odor, east
+  option4State: {fileID: 11400000, guid: 54aca50755d3ec04ba0fa66f27944dc0, type: 2}
+  option5Text: Investigate the barricaded path, south
+  option5State: {fileID: 11400000, guid: e34b817dccf02f640ac323ebf368d862, type: 2}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

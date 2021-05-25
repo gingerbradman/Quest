@@ -14,19 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultText: You look around. The cave is barren except for some bits of yellow
     moss in the corner and a bucket. What were you expecting, a five-star hotel room?
-  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 
   itemRequired: 
-  knowledgeAcquire: 
+  knowledgeAcquire: Yellow Moss
   knowledgeRequired: 
   ClassPick: 0
   acquireCompanion: 0
-  option1Text: Back...
-  option1State: {fileID: 11400000, guid: 8e007563a88c64b46a0e5e64189de3a0, type: 2}
-  option2Text: 
-  option2State: {fileID: 0}
+  option1Text: Taste the moss
+  option1State: {fileID: 11400000, guid: dc9ef6e5c8bcf204eae4b6ecebe403b8, type: 2}
+  option2Text: Back...
+  option2State: {fileID: 11400000, guid: 99588b0144674dc43a7d0d7c919fdd8c, type: 2}
   option3Text: 
   option3State: {fileID: 0}
   option4Text: 
@@ -34,18 +33,19 @@ MonoBehaviour:
   option5Text: 
   option5State: {fileID: 0}
   fighterText: 
-  fighterStates: []
+  fighterStates: {fileID: 0}
   wizardText: 
-  wizardStates: []
+  wizardStates: {fileID: 0}
   bardText: 
-  bardStates: []
+  bardStates: {fileID: 0}
   hansText: 
-  hansStates: []
+  hansStates: {fileID: 0}
   nyxText: 
-  nyxStates: []
+  nyxStates: {fileID: 0}
   timText: 
-  timStates: []
-  itemText: 
-  itemStates: []
+  timStates: {fileID: 0}
+  itemText: (Herbalist Gloves) Put on the herbalist gloves and attempt to pickup
+    the moss.
+  itemStates: {fileID: 11400000, guid: b1d851eb7d0b11741afb15029742c67d, type: 2}
   knowledgeText: 
-  knowledgeStates: []
+  knowledgeStates: {fileID: 0}

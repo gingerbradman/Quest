@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: O-LowerCrossroadsNeutral
+  m_EditorClassIdentifier: 
+  defaultText: Around you are some slightly glowing mushrooms that illuminate the
+    multiple paths before you. One path seems to get even darker and as you turn
+    your head that way it smells of rot and its absolutely terrible stentch assualts
+    your nose. A separate path seems to grow brighter and you hear the crittering
+    of multipl creatures. Another path seems well-lit enough, but is deathly quiet.
+    Of course, you could always slip back through that barricade.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: Lower Crossroads
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Investigate the mushrooms
+  option1State: {fileID: 11400000, guid: 9fd9a924ab5892c458e5573cb890d32c, type: 2}
+  option2Text: Take the dark path that smells of rot, east
+  option2State: {fileID: 11400000, guid: 11f633a4a94a8774483560ab6bdbf443, type: 2}
+  option3Text: Take the chittering path, south
+  option3State: {fileID: 11400000, guid: b97c418f8b85de24dadfe0aea992b718, type: 2}
+  option4Text: Take the deathly quiet path, west
+  option4State: {fileID: 11400000, guid: ee8f0ee595756f5459979a90b0536432, type: 2}
+  option5Text: Take the path back through the barricade, north
+  option5State: {fileID: 11400000, guid: e34b817dccf02f640ac323ebf368d862, type: 2}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

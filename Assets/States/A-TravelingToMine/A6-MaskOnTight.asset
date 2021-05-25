@@ -16,7 +16,6 @@ MonoBehaviour:
     tell from their facial features. Instead you understood they didn't appreciate
     your concern on their sense of hearing because quickly after expressing your
     empathy, your captor pulls out a wooden stick and knocks you unconscious.
-  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 
@@ -26,7 +25,7 @@ MonoBehaviour:
   ClassPick: 0
   acquireCompanion: 0
   option1Text: Continue...
-  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option1State: {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
   option2Text: 
   option2State: {fileID: 0}
   option3Text: 

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: T-Horb
+  m_EditorClassIdentifier: 
+  defaultText: You and the eldery goblin walk up to the plateau of the larger tent.
+    "Before we go in, let me do some sweet talking." she gives you a too-few toothy
+    smile before walking into the tent. You hear the chittering of the goblin language
+    for a while. Eventually a hand motions you in from the tent. As you move the
+    curtains of the tent to the side you finally catch a view of the other speaker.
+    A large bipedal creature with brown skin. You presume is Horb. "What is your
+    plan, creature." He grumbles at you.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: Large Tent
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: '"Rally together, gather your forces and follow me through the barricade
+    to the quarry."'
+  option1State: {fileID: 11400000, guid: 4ee0b84730288d14e926c53060348863, type: 2}
+  option2Text: '"I was thinking you could take your troops and attack their leader
+    directly at the entrance."'
+  option2State: {fileID: 11400000, guid: 84c46a3f3b60317499f5c78a14730a02, type: 2}
+  option3Text: '"I''m not sure, do you have some sort of plan?"'
+  option3State: {fileID: 11400000, guid: 01b452c83b1d6ca46b1f4a0e1a17be54, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

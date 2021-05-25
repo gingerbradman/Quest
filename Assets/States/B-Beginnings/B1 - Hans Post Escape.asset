@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: B1 - Hans Post Escape
+  m_EditorClassIdentifier: 
+  defaultText: '"Take a seat." Hans gestures to the ground with one of his chained
+    hands. "It''ll be a while."'
+  oneVisit: 0
+  artwork: {fileID: 0}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  option1Text: Where are they sending us?
+  option1State: {fileID: 11400000, guid: 211d655b3ea9cda47af736c7c1468461, type: 2}
+  option2Text: Why are they doing this?
+  option2State: {fileID: 11400000, guid: a13d57acb4e6ffb4ea3a9237ee83beaf, type: 2}
+  option3Text: Where are my people?
+  option3State: {fileID: 11400000, guid: 3fba94e882526714f94d59f63d1c9a07, type: 2}
+  option4Text: Back
+  option4State: {fileID: 11400000, guid: c3ce11fae4fe3be4c937478597ce202a, type: 2}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

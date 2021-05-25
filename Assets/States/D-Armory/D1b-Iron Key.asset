@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: D1b-Iron Key
+  m_EditorClassIdentifier: 
+  defaultText: You insert the key into the door then turn the doorknob. Easily, the
+    door swings open to reveal an entire armory full of weapons, armor and equipment.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: Lantern
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: 
+  option1State: {fileID: 0}
+  option2Text: 
+  option2State: {fileID: 0}
+  option3Text: Back...
+  option3State: {fileID: 11400000, guid: f6c7b651f974a6049adc28680320b404, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: (Lantern) Search for a lantern to signal the goblins
+  knowledgeStates: {fileID: 11400000, guid: e5ed10e13a834774688d1b066b4f0953, type: 2}

@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
-  m_Name: B2-Time
+  m_Name: B-ClassPick
   m_EditorClassIdentifier: 
-  defaultText: 'Time passes and you begin to feel better, more like yourself. After
-    a while you drift off to sleep. Dreams come to you in rather sudden states. You
-    have a dream about:'
-  defaultStates: []
+  defaultText: 'Dreams come to you in rather sudden states. You have a dream about:'
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 
@@ -26,12 +23,12 @@ MonoBehaviour:
   acquireCompanion: 0
   option1Text: (Fighter) Winning glory, fighting for honor and battling with all
     manner of weapons
-  option1State: {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
   option2Text: (Wizard) Traveling to far off places, magic and conjuring creatures
-  option2State: {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+  option2State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
   option3Text: (Bard) Cleverly tricking those around you, seducing those most beautiful
     and having a way with words
-  option3State: {fileID: 11400000, guid: f1df4bcc1008a8d47b70f5e79ecbb9e1, type: 2}
+  option3State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
   option4Text: 
   option4State: {fileID: 0}
   option5Text: 

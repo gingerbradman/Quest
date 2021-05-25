@@ -8,16 +8,22 @@ public class State : ScriptableObject
     [TextArea(14,10)][SerializeField] string defaultText;
 
     public bool oneVisit;
- 
+    public bool splitPath;
     public Sprite artwork;
+    public AudioClip audioClip;
+    public string locationName;
     public string itemAcquire;
     public string itemRequired;
     public string knowledgeAcquire;
     public string knowledgeRequired;
+    public string splitPathKeywordAcquire;
+    public string splitPathKeywordRecquired;
     public bool ClassPick;
 
     public CharacterCompanion.Companion acquireCompanion = CharacterCompanion.Companion.Default;
-
+    public CharacterCompanion.LoseCompanion loseCompanion = CharacterCompanion.LoseCompanion.Default;
+    [SerializeField] State splitState;
+    
     [TextArea(2, 10)] [SerializeField] string option1Text;
     [SerializeField] State option1State;
     [TextArea(2, 10)] [SerializeField] string option2Text;
@@ -29,23 +35,28 @@ public class State : ScriptableObject
     [TextArea(2, 10)] [SerializeField] string option5Text;
     [SerializeField] State option5State;
     [TextArea(2, 10)] [SerializeField] string fighterText;
-    [SerializeField] State[] fighterStates;
+    [SerializeField] State fighterStates;
     [TextArea(2, 10)] [SerializeField] string wizardText;
-    [SerializeField] State[] wizardStates;
+    [SerializeField] State wizardStates;
     [TextArea(2, 10)] [SerializeField] string bardText;
-    [SerializeField] State[] bardStates;
+    [SerializeField] State bardStates;
 
     [TextArea(2, 10)] [SerializeField] string hansText;
-    [SerializeField] State[] hansStates;
+    [SerializeField] State hansStates;
     [TextArea(2, 10)] [SerializeField] string nyxText;
-    [SerializeField] State[] nyxStates;
+    [SerializeField] State nyxStates;
     [TextArea(2, 10)] [SerializeField] string timText;
-    [SerializeField] State[] timStates;
+    [SerializeField] State timStates;
     [TextArea(2, 10)] [SerializeField] string itemText;
-    [SerializeField] State[] itemStates;
+    [SerializeField] State itemStates;
 
     [TextArea(2, 10)] [SerializeField] string knowledgeText;
-    [SerializeField] State[] knowledgeStates;
+    [SerializeField] State knowledgeStates;
+
+    public State GetSplitState()
+    {
+        return splitState;
+    }
 
     public string GetStateStory()
     {
@@ -104,9 +115,9 @@ public class State : ScriptableObject
         return "";
     }
 
-    public State[] GetRoleState(CharacterRole.CharacterClass role)
+    public State GetRoleState(CharacterRole.CharacterClass role)
     {
-        State[] temp = new State[0];
+        State temp = new State();
         if (role == CharacterRole.CharacterClass.Fighter)
         {
             temp = GetFighterStates();
@@ -132,20 +143,20 @@ public class State : ScriptableObject
         {
             return "(Hans) " + GetHansText();
         }
-        else if (companion == CharacterCompanion.Companion.Nyx)
+        else if (companion == CharacterCompanion.Companion.Nyx && GetNyxText() != "")
         {
             return "(Nyx) " + GetNyxText();
         }
-        else if (companion == CharacterCompanion.Companion.Tim)
+        else if (companion == CharacterCompanion.Companion.Tim && GetTimText() != "")
         {
             return "(Tim) " + GetTimText();
         }
         return "";
     }
 
-    public State[] GetCompState(CharacterCompanion.Companion companion)
+    public State GetCompState(CharacterCompanion.Companion companion)
     {
-        State[] temp = new State[0];
+        State temp = new State();
         if (companion == CharacterCompanion.Companion.Default)
         {
             return temp;
@@ -174,9 +185,9 @@ public class State : ScriptableObject
         return "";
     }
 
-    public State[] GetItemState(List<string> inventory)
+    public State GetItemState(List<string> inventory)
     {
-        State[] temp = new State[0];
+        State temp = new State();
         if (inventory.Contains(itemRequired))
         {
             temp = GetItemStates();
@@ -193,9 +204,9 @@ public class State : ScriptableObject
         return "";
     }
 
-    public State[] GetKnowledgeState(List<string> knowledge)
+    public State GetKnowledgeState(List<string> knowledge)
     {
-        State[] temp = new State[0];
+        State temp = new State();
         if (knowledge.Contains(knowledgeRequired))
         {
             temp = GetKnowledgeStates();
@@ -218,17 +229,17 @@ public class State : ScriptableObject
         return bardText;
     }
 
-    public State[] GetFighterStates()
+    public State GetFighterStates()
     {
         return fighterStates;
     }
 
-    public State[] GetWizardStates()
+    public State GetWizardStates()
     {
         return wizardStates;
     }
 
-    public State[] GetBardStates()
+    public State GetBardStates()
     {
         return bardStates;
     }
@@ -248,17 +259,17 @@ public class State : ScriptableObject
         return timText;
     }
 
-    public State[] GetHansStates()
+    public State GetHansStates()
     {
         return hansStates;
     }
 
-    public State[] GetNyxStates()
+    public State GetNyxStates()
     {
         return nyxStates;
     }
 
-    public State[] GetTimStates()
+    public State GetTimStates()
     {
         return timStates;
     }
@@ -268,7 +279,7 @@ public class State : ScriptableObject
         return itemText;
     }
 
-    public State[] GetItemStates()
+    public State GetItemStates()
     {
         return itemStates;
     }
@@ -278,7 +289,7 @@ public class State : ScriptableObject
         return knowledgeText;
     }
 
-    public State[] GetKnowledgeStates()
+    public State GetKnowledgeStates()
     {
         return knowledgeStates;
     }

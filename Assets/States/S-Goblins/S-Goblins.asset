@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: S-Goblins
+  m_EditorClassIdentifier: 
+  defaultText: The chittering grows louder as you turn a corner down the path. After
+    a bit of walking, you come across a broad-rectangular room lined with tents and
+    small abodes. Each structure is built lining the walls and lead up to a raised
+    plateu which houses a larger tent then the rest. In the alleys between the tents,
+    numerous small humanoids run back and forth speaking to each other and trading
+    items. You catch glimpses of them, Goblins.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: Goblin Camp
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: GoblinTounge
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Approach the goblins speaking common tounge
+  option1State: {fileID: 11400000, guid: 775a0907183ce7542ba8764cd5a48dc7, type: 2}
+  option2Text: Take the path back to the lower crossroads, north
+  option2State: {fileID: 11400000, guid: bf1d01cfa1abd8241b9e8ddcea178d5f, type: 2}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: (GoblinTounge) Approach the goblins speaking their language
+  knowledgeStates: {fileID: 11400000, guid: b40351358ca6c6c4884781aa91fc4eb4, type: 2}

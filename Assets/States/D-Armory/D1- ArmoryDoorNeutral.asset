@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: D1- ArmoryDoorNeutral
+  m_EditorClassIdentifier: 
+  defaultText: You stand before the armory door, ready to go inside or go on your
+    way.
+  oneVisit: 0
+  artwork: {fileID: 0}
+  audioClip: {fileID: 0}
+  locationName: 
+  itemAcquire: 
+  itemRequired: Iron Key
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Try the handle
+  option1State: {fileID: 11400000, guid: 171ad6931601f7d4198243b945b2bc0a, type: 2}
+  option2Text: Take the path towards the crossroads, south
+  option2State: {fileID: 11400000, guid: 6835bb739033e3244acceb0e02cd5dc9, type: 2}
+  option3Text: 
+  option3State: {fileID: 0}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: (Iron Key)Try the Iron Key
+  itemStates: {fileID: 11400000, guid: 39e33f2121296e348b10ae2a94883f0e, type: 2}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}

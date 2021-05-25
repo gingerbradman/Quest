@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: I-AbandonedQuarry
+  m_EditorClassIdentifier: 
+  defaultText: This room opens into a cavernous...well...cavern! The evidence of
+    work on the stones is obvious that this was once a quarry, but no one works here
+    now as it is deathly silent. There are two paths in and out of here. Both are
+    well lit, one is back into the bowels of the cave and the other looks like some
+    sort of guard outpost.
+  oneVisit: 0
+  artwork: {fileID: 21300000, guid: a80ea1a6fd1036244aa2d610313b7c6c, type: 3}
+  audioClip: {fileID: 0}
+  locationName: A. Quarry
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: Painted Rock
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Investigate the quarry
+  option1State: {fileID: 11400000, guid: da53423d46322634c9dea5712582c41e, type: 2}
+  option2Text: Take the path towards the guard outpost, east
+  option2State: {fileID: 11400000, guid: bcf9a173000a2814398e3804f72552c7, type: 2}
+  option3Text: Take the path back to the upper crossroads, south
+  option3State: {fileID: 11400000, guid: 6d489ec8c38a0fa499908199821f285c, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: '"Nyx, is this where the way out is?"'
+  nyxStates: {fileID: 11400000, guid: d1ec622ec2a67c744a48397887d12302, type: 2}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: (Painted Rock) Search for the painted rock you heard about from
+    the guards
+  knowledgeStates: {fileID: 11400000, guid: 4de267ebc0fecfe4a848ae348b087968, type: 2}

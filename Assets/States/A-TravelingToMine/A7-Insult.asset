@@ -16,7 +16,6 @@ MonoBehaviour:
     and mother recreating him to his own ears. From hebing you hear your people and
     captors alike begin to chuckle. You turn to see their smiles but not before feeling
     something strike you on the head, and consciousness fades from you once more.
-  defaultStates: []
   oneVisit: 0
   artwork: {fileID: 0}
   itemAcquire: 
@@ -26,7 +25,7 @@ MonoBehaviour:
   ClassPick: 0
   acquireCompanion: 0
   option1Text: Continue...
-  option1State: {fileID: 11400000, guid: ec6aa7ebaa186954fa505d601b102ed4, type: 2}
+  option1State: {fileID: 11400000, guid: 554a3ad2d149a7344be865af7bd62e65, type: 2}
   option2Text: 
   option2State: {fileID: 0}
   option3Text: 

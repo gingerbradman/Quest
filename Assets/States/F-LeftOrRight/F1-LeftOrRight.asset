@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0c95b8990896843adcbd40811dd213, type: 3}
+  m_Name: F1-LeftOrRight
+  m_EditorClassIdentifier: 
+  defaultText: 'Once again, you reach a crossroads, this time two divergent paths
+    lay out before you. On one side, you hear the clincks of metal on rock and moans
+    of people being worked to the bone. The other path lies quiet. '
+  oneVisit: 0
+  artwork: {fileID: 21300000, guid: 03056ba31860c344b946e9e349fd9052, type: 3}
+  audioClip: {fileID: 0}
+  locationName: Split Path
+  itemAcquire: 
+  itemRequired: 
+  knowledgeAcquire: 
+  knowledgeRequired: 
+  ClassPick: 0
+  acquireCompanion: 0
+  loseCompanion: 0
+  option1Text: Take the louder path, west
+  option1State: {fileID: 11400000, guid: bb9fafd4a6a4bc04c81c3a675487994c, type: 2}
+  option2Text: Take the quieter path, east
+  option2State: {fileID: 11400000, guid: b530cbe07d095e942b0e32398d113e0c, type: 2}
+  option3Text: Take the path back to the previous crossroads, north
+  option3State: {fileID: 11400000, guid: 6835bb739033e3244acceb0e02cd5dc9, type: 2}
+  option4Text: 
+  option4State: {fileID: 0}
+  option5Text: 
+  option5State: {fileID: 0}
+  fighterText: 
+  fighterStates: {fileID: 0}
+  wizardText: 
+  wizardStates: {fileID: 0}
+  bardText: 
+  bardStates: {fileID: 0}
+  hansText: 
+  hansStates: {fileID: 0}
+  nyxText: 
+  nyxStates: {fileID: 0}
+  timText: 
+  timStates: {fileID: 0}
+  itemText: 
+  itemStates: {fileID: 0}
+  knowledgeText: 
+  knowledgeStates: {fileID: 0}
